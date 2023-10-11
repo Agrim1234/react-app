@@ -11,6 +11,6 @@ jobs:
             - name: Install node_modules
               run: npm install -g
             - name: Build the project
-              run: npm run start
+              run: npm build
             - name: Setup finish 
               run: echo "hurray!"
